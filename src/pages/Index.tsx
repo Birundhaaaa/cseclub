@@ -39,21 +39,63 @@ const Index = () => {
           </motion.p>
 
           {/* Club Names */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black leading-tight mt-2">
-              <span className="text-neon-green">Cyber </span>
-              <span className="text-foreground">Knights</span>
-            </h1>
-            <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black leading-tight">
-              <span className="text-neon-cyan">Script </span>
-              <span className="text-foreground">Soldiers</span>
-            </h1> 
-          </motion.div>
+          <div className="flex flex-col items-center gap-3 w-full max-w-[1200px] mx-auto">
 
+  {/* ROW 1 */}
+  <div className="flex items-center justify-center gap-6 w-full relative">
+
+    {/* Script (initially lands here) */}
+    <motion.span
+      className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-neon-cyan"
+      initial={{ opacity: 0, x: 900, y: -200 }}
+      animate={{
+        opacity: 1,
+        x: [900, 0, -15],
+        y: [-200, 0, 105]   // move down later
+      }}
+      transition={{
+        duration: 4,
+        times: [0, 0.5, 1],
+        delay: 1
+      }}
+    >
+      Script
+    </motion.span>
+
+    <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-foreground">
+      Knights
+    </h1>
+
+  </div>
+
+
+  {/* ROW 2 */}
+  <div className="flex items-center justify-center gap-6 w-full relative">
+
+    {/* Cyber (initially lands here) */}
+    <motion.span
+      className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-neon-green"
+      initial={{ opacity: 0, x: -900, y: 200 }}
+      animate={{
+        opacity: 1,
+        x: [-900, 0,30],
+        y: [200, 0, -110]   // move up later
+      }}
+      transition={{
+        duration: 4,
+        times: [0, 0.5, 1]
+      }}
+    >
+      Cyber
+    </motion.span>
+
+    <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-foreground">
+      Soldiers
+    </h1>
+
+  </div>
+
+</div>
           {/* Tagline */}
           <motion.p
             initial={{ opacity: 0 }}

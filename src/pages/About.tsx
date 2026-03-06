@@ -35,21 +35,23 @@ const About = () => {
               <Target className="text-secondary mt-1 shrink-0" size={20} />
               <div>
                 <h4 className="font-heading text-sm font-bold text-secondary mb-1">MISSION</h4>
-                <p className="text-muted-foreground text-sm font-body">To cultivate cybersecurity awareness and expertise through hands-on training and real-world challenges.</p>
+                <p className="text-muted-foreground text-sm font-body">To equip students with practical cybersecurity knowledge and hands-on learning experiences.
+To encourage innovation in defending modern digital systems..</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Eye className="text-secondary mt-1 shrink-0" size={20} />
               <div>
                 <h4 className="font-heading text-sm font-bold text-secondary mb-1">VISION</h4>
-                <p className="text-muted-foreground text-sm font-body">To create a secure digital ecosystem by nurturing skilled cybersecurity professionals.</p>
+                <p className="text-muted-foreground text-sm font-body">To develop skilled cyber enthusiasts who can protect and secure the digital world.
+To build a strong culture of cybersecurity awareness and ethical practice..</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Users className="text-secondary mt-1 shrink-0" size={20} />
               <div>
                 <h4 className="font-heading text-sm font-bold text-secondary mb-1">MOTTO</h4>
-                <p className="text-muted-foreground text-sm font-body italic">"Defend. Detect. Dominate."</p>
+                <p className="text-muted-foreground text-sm font-body italic">"Protect. Secure. Lead."</p>
               </div>
             </div>
           </div>
@@ -84,21 +86,23 @@ const About = () => {
               <Target className="text-primary mt-1 shrink-0" size={20} />
               <div>
                 <h4 className="font-heading text-sm font-bold text-primary mb-1">MISSION</h4>
-                <p className="text-muted-foreground text-sm font-body">To empower students with cutting-edge programming skills and foster innovation through collaborative development.</p>
+                <p className="text-muted-foreground text-sm font-body">To strengthen coding and problem-solving skills through training, workshops, and competitions.
+To prepare students for real-world technical challenges and career opportunities..</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Eye className="text-primary mt-1 shrink-0" size={20} />
               <div>
                 <h4 className="font-heading text-sm font-bold text-primary mb-1">VISION</h4>
-                <p className="text-muted-foreground text-sm font-body">To be the leading coding community that produces world-class developers and tech innovators.</p>
+                <p className="text-muted-foreground text-sm font-body">To nurture passionate programmers capable of building impactful digital solutions.
+To inspire innovation and excellence in the world of coding</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Zap className="text-primary mt-1 shrink-0" size={20} />
               <div>
                 <h4 className="font-heading text-sm font-bold text-primary mb-1">MOTTO</h4>
-                <p className="text-muted-foreground text-sm font-body italic">"Code. Build. Deploy. Repeat."</p>
+                <p className="text-muted-foreground text-sm font-body italic">"Code. Innovate. Excel."</p>
               </div>
             </div>
           </div>
